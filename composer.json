@@ -9,19 +9,20 @@
   "require": {
     "php": ">=7",
     "doctrine/orm": "*",
-    "illuminate/database": "*"
+    "klein/klein": "^2.1"
   },
   "require-dev": {
     "phpunit/phpunit": "^6.4"
   },
   "autoload": {
     "psr-4": {
-      "Erekle\\Statistic\\": "src/"
+      "Erekle\\Statistic\\": "app/"
     }
   },
   "autoload-dev": {
     "psr-4": {
       "Erekle\\Statistic\\Tests\\": "tests/"
     }
-  }
+  },
+  "minimum-stability": "dev"
 }

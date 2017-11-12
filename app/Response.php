@@ -15,8 +15,9 @@ class Response implements ResponseInterface
     protected $message;
 
 
-    public function getData(): self
+    public function getData()
     {
+
         return $this;
     }
 }
